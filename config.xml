@@ -9,7 +9,7 @@
 
         <preference name="phonegap-version" value="3.5.0" />
 
-        <name>1app</name>
+        <name>Glam's Makeup</name>
 
         <description>
         An example for phonegap build docs. 
