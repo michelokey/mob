@@ -52,27 +52,27 @@
     </head>
     <body >
     <!-- Welcome -->
- <div data-role="page"   id="splash" style="background: #fff;"> 
+ <!--div data-role="page"   id="splash" style="background: #fff;"> 
     <div id="monbloc" >
         <img src="images/welcome.jpg" alt="welcome" />
     </div>
-</div>
+</div-->
 <!-- Welcome -->
 
 <!-- Accueil -->
-<div data-role="page" id="home" style="background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:cover"  >
+<div data-role="page" id="home" style="background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:100%"  >
   <div data-role="content" >
   <!--p align="center" >
   <img src="images/logo_glams.png" alt="logo" />
   </p-->
  
   </div>
-    <div data-role="footer" data-position="fixed" style="background:#FFF; border:none;   font-size:14px;  ">
-  <ul data-role="listview" data-theme="c" data-inset="false"   >
-          <li><a href="#pdt" data-transition="pop"   >Produits</a></li>
-          <li><a href="#astuces" data-transition="pop"  >Astuces</a></li>
-          <li><a href="#find" data-transition="pop" >O&ugrave; trouver ?</a></li>
-          <li><a href="#call" data-transition="pop" >Contacts</a></li>
+    <div data-role="footer" data-position="fixed" style="background:#FFF; border:none;   " align="center">
+  <ul id="navigation"       >
+          <li><a href="#pdt"  data-transition="slide"   >Produits</a></li>
+          <li><a href="#astuces" data-transition="slide"  >Astuces</a></li>
+          <li><a href="#find" data-transition="slide" >O&ugrave; trouver ?</a></li>
+          <li><a href="#call" data-transition="slide" >Contacts</a></li>
         </ul>
    </div>
 </div>
@@ -81,10 +81,10 @@
 <!--Produits-->
   <div data-role="page" id="pdt"     >
       <div data-role="header" data-position="fixed">
-        <h1  >GLAM&acute;S</h1>
+        <h1  >PRODUITS</h1>
      
-         <a href="#home" data-transition="flip" data-iconpos="notext"  data-icon="home"   data-shadow="false" data-iconshadow="false" data-role="button"    >&nbsp;</a>
-        <a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a>
+         <a href="#home" data-transition="slide" data-rel="back"   data-iconpos="left"  data-icon="arrow-l"   data-shadow="false" data-iconshadow="false" data-role="button"    data-back-btn-text="BACK"  >BACK</a>
+        <!--a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a-->
           
       </div>
     <div data-role="content" align="center" style="margin-top:10px"  >
@@ -127,10 +127,10 @@
   <!--Produits-->
   <div data-role="page" id="vernis"     >
       <div data-role="header" data-position="fixed">
-        <h1  >GLAM&acute;S</h1>
+        <h1  >PRODUITS</h1>
      
-         <a href="#home" data-transition="flip" data-iconpos="notext"  data-icon="home"   data-shadow="false" data-iconshadow="false" data-role="button"    >&nbsp;</a>
-        <a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a>
+         <a href="#home" data-transition="slide" data-rel="back"   data-iconpos="left"  data-icon="arrow-l"   data-shadow="false" data-iconshadow="false" data-role="button"    data-back-btn-text="BACK"  >BACK</a>
+        <!--a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a-->
           
       </div>
     <div data-role="content" align="center"  >
@@ -177,10 +177,10 @@
     <!-- astuces -->
     <div data-role="page" id="astuces" style="background:#fff" >
       <div data-role="header" data-position="fixed">
-        <h1  >GLAM&acute;S</h1>
+        <h1  >PRODUITS</h1>
      
-         <a href="#home" data-transition="flip" data-iconpos="notext"  data-icon="home"   data-shadow="false" data-iconshadow="false" data-role="button"    >&nbsp;</a>
-        <a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a>
+         <a href="#home" data-transition="slide" data-rel="back"   data-iconpos="left"  data-icon="arrow-l"   data-shadow="false" data-iconshadow="false" data-role="button"  data-add-back-btn="true" data-back-btn-text="BACK"  >BACK</a>
+        <!--a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a-->
           
       </div>
   
@@ -270,10 +270,10 @@
     <!--Ou trouver-->
     <div data-role="page" id="find"  style="background:#FFF"  >
       <div data-role="header" data-position="fixed">
-        <h1  >GLAM&acute;S</h1>
+        <h1  >PRODUITS</h1>
      
-         <a href="#home" data-transition="flip" data-iconpos="notext"  data-icon="home"   data-shadow="false" data-iconshadow="false" data-role="button"    >&nbsp;</a>
-        <a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a>
+         <a href="#home" data-transition="slide" data-rel="back"   data-iconpos="left"  data-icon="arrow-l"   data-shadow="false" data-iconshadow="false" data-role="button"    data-back-btn-text="BACK"  >BACK</a>
+        <!--a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a-->
           
       </div>
     <div data-role="content" align="center">
@@ -307,10 +307,10 @@
     <!--Contacts-->
     <div data-role="page" id="call"  style="background:#FFF"  >
       <div data-role="header" data-position="fixed">
-        <h1  >GLAM&acute;S</h1>
+        <h1  >PRODUITS</h1>
      
-         <a href="#home" data-transition="flip" data-iconpos="notext"  data-icon="home"   data-shadow="false" data-iconshadow="false" data-role="button"    >&nbsp;</a>
-        <a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a>
+         <a href="#home" data-transition="slide" data-rel="back"   data-iconpos="left"  data-icon="arrow-l"   data-shadow="false" data-iconshadow="false" data-role="button"    data-back-btn-text="BACK"  >BACK</a>
+        <!--a href="#right-panel"  data-icon="bars" data-iconpos="notext" data-shadow="false" data-iconshadow="false"  data-role="button"   >Open right panel</a-->
           
       </div>
     <div data-role="content" align="center">

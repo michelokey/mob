@@ -14,7 +14,7 @@ $(document).on('pageinit',function(){
 });
 
 $(function() {
-  setTimeout(hideSplash, 2000);
+  setTimeout(hideSplash, 5000);
 });
 
 function hideSplash() {
