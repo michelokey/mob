@@ -1,6 +1,6 @@
 /* CSS Document */
 /* Swipe works with mouse as well but often causes text selection. */
-body{ background:#FFF;}
+body{ background:#FFF; }  
 /* #home * {
     -webkit-user-select: none;
     -moz-user-select: none;

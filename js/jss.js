@@ -38,7 +38,17 @@ function hideSplash() {
 }
 
  
+$(function(){
+    $('#inner-content-div').slimScroll({
+        height: '500px'
+    });
+}); 
 
-          
+$(function(){
+    $('#inner-content-div2').slimScroll({
+        height: '500px'
+    });
+});    
+   
 
       
