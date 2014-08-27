@@ -8,10 +8,7 @@
                         top:($(window).height() - $("#monbloc").outerHeight()) / 2
                     });
                 });
-<<<<<<< HEAD
-				$.mobile.page.prototype.options.domCache = true;
-=======
->>>>>>> origin/master
+				 
             });
 
             $(window).load(function() {
