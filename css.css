@@ -1,14 +1,14 @@
 /* CSS Document */
 /* Swipe works with mouse as well but often causes text selection. */
 body{ background:#FFF;}
-#home * {
+/* #home * {
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     -o-user-select: none;
     user-select: none;
 }
-/* Arrow only buttons in the header. */
+/* Arrow only buttons in the header.  
 #home .ui-header .ui-btn {
     background: none;
     border: none;
@@ -17,6 +17,23 @@ body{ background:#FFF;}
 #home .ui-header .ui-btn-inner {
     border: none;
 }
+*/
+@media screen and (max-width: 200px) {
+#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+}
+
+@media screen and (max-width: 400px) {
+#home {background:#fff url(images/1m.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+}
+
+@media screen and (max-width: 500px) {
+#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+}
+
+@media screen and (max-width: 900px) {
+#home {background:#fff url(images/1h.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+}
+
 /* Content styling. */
 dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
 dt { font-size: 2em; font-weight: bold; }
