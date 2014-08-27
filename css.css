@@ -19,19 +19,19 @@ body{ background:#FFF;}
 }
 */
 @media screen and (max-width: 200px) {
-#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:cover !important; border: none;}
 }
 
 @media screen and (max-width: 400px) {
-#home {background:#fff url(images/1m.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+#home {background:#fff url(images/1m.jpg) fixed no-repeat top center; background-size:cover !important; border: none;}
 }
 
 @media screen and (max-width: 500px) {
-#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:cover !important; border: none;}
 }
 
 @media screen and (max-width: 900px) {
-#home {background:#fff url(images/1h.jpg) fixed no-repeat top center; background-size:100%; border: none;}
+#home {background:#fff url(images/1h.jpg) fixed no-repeat top center; background-size:cover !important; border: none;}
 }
 
 /* Content styling. */
