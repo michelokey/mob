@@ -77,10 +77,10 @@
     <icon src="res/icon/windows-phone/icon-173.png" gap:platform="winphone"   gap:role="background" />
 
     <!-- Define app splash screen for each platform. -->
-    <gap:splash src="ress/android/splash/ldpi.png"       gap:platform="android" gap:qualifier="ldpi" />
-    <gap:splash src="ress/android/splash/hdpi.png"       gap:platform="android" gap:qualifier="mdpi" />
-    <gap:splash src="ress/android/splash/mdpi.png"       gap:platform="android" gap:qualifier="hdpi" />
-    <gap:splash src="ress/android/splash/xhdpi.png"      gap:platform="android" gap:qualifier="xhdpi" />
+    <gap:splash src="res/android/splash/ldpi.png"       gap:platform="android" gap:qualifier="ldpi" />
+    <gap:splash src="res/android/splash/hdpi.png"       gap:platform="android" gap:qualifier="mdpi" />
+    <gap:splash src="res/android/splash/mdpi.png"       gap:platform="android" gap:qualifier="hdpi" />
+    <gap:splash src="res/android/splash/xhdpi.png"      gap:platform="android" gap:qualifier="xhdpi" />
     <gap:splash src="res/screen/blackberry/screen-225.png"              gap:platform="blackberry" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png"         gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png"      gap:platform="ios"     width="640" height="960" />
@@ -89,6 +89,7 @@
     <gap:splash src="res/screen/ios/screen-ipad-landscape.png"          gap:platform="ios"     width="1024" height="768" />
     <gap:splash src="res/screen/windows-phone/screen-portrait.jpg"      gap:platform="winphone" />
 
+ 
 
 <accesss origin="*" />
 
