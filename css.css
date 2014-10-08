@@ -18,22 +18,23 @@ body{ background:#FFF; }
     border: none;
 }
 */
-@media screen and (max-width: 200px) {
-#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:cover !important; border: none; }
-}
-
-@media screen and (max-width: 400px) {
-#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
-}
-
-@media screen and (max-width: 500px) {
-#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:auto !important; border: none; }
-}
-
-@media screen and (max-width: 900px) {
-#home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:cover !important; border: none; }
-}
-
+  @media screen and (max-width: 200px) {
+  #home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:cover !important; border: none; }
+  }
+  @media screen and (max-width: 350px) {
+#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+  }
+  @media screen and (max-width: 400px) {
+#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+  }
+  @media screen and (max-width: 500px) {
+#home {background:#fff url(images/1m.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+  }
+   @media screen and (max-width: 800px) {
+ #home {background:#fff url(images/1h.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+  }
+ 
+ 
 /* Content styling. */
 dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
 dt { font-size: 2em; font-weight: bold; }
