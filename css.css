@@ -19,19 +19,73 @@ body{ background:#FFF; }
 }
 */
   @media screen and (max-width: 200px) {
-  #home {background:#fff url(images/1l.jpg) fixed no-repeat top center; background-size:cover !important; border: none; }
+  #home {
+  
+  position: fixed; 
+top: 0; 
+left: 0; 
+width: 100% !important; 
+height: 100% !important; 
+background: url(images/li.jpg) no-repeat center center fixed !important; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+z-index: -1; 
+  }
   }
   @media screen and (max-width: 350px) {
-#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+#home {  position: fixed; 
+top: 0; 
+left: 0; 
+width: 100% !important; 
+height: 100% !important; 
+background: url(images/1.jpg) no-repeat center center fixed !important; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+z-index: -1; 
+  }
   }
   @media screen and (max-width: 400px) {
-#home {background:#fff url(images/1.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+#home { position: fixed; 
+top: 0; 
+left: 0; 
+width: 100% !important; 
+height: 100% !important; 
+background: url(images/1.jpg) no-repeat center center fixed !important; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+z-index: -1;   }
   }
   @media screen and (max-width: 500px) {
-#home {background:#fff url(images/1m.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+#home { position: fixed; 
+top: 0; 
+left: 0; 
+width: 100% !important; 
+height: 100% !important; 
+background: url(images/1m.jpg) no-repeat center center fixed !important; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+z-index: -1; }
   }
    @media screen and (max-width: 800px) {
- #home {background:#fff url(images/1h.jpg) fixed no-repeat top center; background-size:auto !important; border: none;  }
+ #home { position: fixed; 
+top: 0; 
+left: 0; 
+width: 100% !important; 
+height: 100% !important; 
+background: url(images/1h.jpg) no-repeat center center fixed !important; 
+-webkit-background-size: cover; 
+-moz-background-size: cover; 
+-o-background-size: cover; 
+background-size: cover; 
+z-index: -1;  }
   }
  
  
