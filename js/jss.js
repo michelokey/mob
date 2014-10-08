@@ -34,21 +34,28 @@ $(function() {
 });
 
 function hideSplash() {
-  $.mobile.changePage("#home", "fade");
+  $.mobile.changePage("home.php#home", "fade");
 }
 
  
 $(function(){
     $('#inner-content-div').slimScroll({
-        height: '500px'
+        height: 'auto'
     });
 }); 
 
 $(function(){
     $('#inner-content-div2').slimScroll({
-        height: '500px'
+        height: 'auto'
     });
 });    
+
+$(function(){
+    $('#inner-content-div3').slimScroll({
+        height: 'auto',
+		 
+    });
+});
    
 
       
