@@ -5,7 +5,7 @@
           <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;" />
         <meta charset="utf-8">
 		<script src="js/jquery.min.js"></script>
-     <link href="css.css" rel="stylesheet" type="text/css" />
+     <link href="css.css" rel="stylesheet" type="text/css" media="screen" />
 <link rel="stylesheet" href="js/jquery.mobile-1.4.3.min.css"  />
 	<script src="js/jquery-1.4.3.min.js"></script>
 	<script src="js/jquery.mobile-1.4.3.min.js"></script>
@@ -15,23 +15,23 @@
     
 <!-- Accueil -->
 <div data-role="page" id="home" >
-  <div data-role="header" style="background:#000" data-position="fixed" >
- <table width="97%" border="0">
-  <tr>
-    <td align="left"><img src="images/lgn.png" width="100%" /></td>
-    <td align="left">
-    <div data-role="fieldcontain" align="center">
-      
-      <input type="search" name="search2" value="Où trouvez nos produits ?" style="color:#66666; font-size:100%"  id="search2"    />
-    </div>
+  <div data-role="header" style="background:#fff"  >
+  
+  <div style="width:100%; display:block; float:left;background:#fff">
+  
+   <div style="width:55%; display:block; float:left">
+  <img src="images/logo_glams.png" width="50%" />
+  </div>
+    <div style="width:10%; display:block; float:right">
+<a href="#test-panel"   data-role="button" data-mini="true" data-iconpos="notext"   data-icon="search" data-iconpos="left">search</a>
     
-    </td>
-  </tr>
-</table>
-
+  </div>
+  </div>
+  
+  
  
   </div>
-  <div data-role="panel" id="test-panel" data-display="overlay" data-position="left" data-theme="c" style="background:#f2F2F2; width:70%; z-index:10000" align="center" data-position="fixed">
+  <div data-role="panel" id="test-panel" data-display="overlay" data-position="left" data-theme="c" style="background:#f2F2F2; width:60%; z-index:10000" align="center" data-position="fixed">
    
             <div style="display:block; float:left; width:100%;   " align="left"   >
             <table width="100%" border="0" bgcolor="#FFFFFF">
