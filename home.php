@@ -31,33 +31,32 @@
   
  
   </div>
-  <div data-role="panel" id="test-panel" data-display="overlay" data-position="left" data-theme="c" style="background:#f2F2F2; width:60%; z-index:10000" align="center" data-position="fixed">
+  <div data-role="panel" id="test-panel" data-display="overlay" data-position="left" data-theme="c" style="background:#f2F2F2; width:100%; z-index:90000; overflow:hidden" align="center" data-position="fixed">
    
-            <div style="display:block; float:left; width:100%;   " align="left"   >
-            <table width="100%" border="0" bgcolor="#FFFFFF">
-  <tr>
-   <td align="center"><b>NOS PRODUITS</b></td>
-    <td align="right"> <a href="#test-panel"   data-role="button" data-mini="true" data-iconpos="notext"   data-icon="delete" data-iconpos="left">Close</a></td>
-   
-  </tr>
-</table>
-
-
- </div>
-            
-       <div style="width:100%;      display:inline; float:left; margin-top:50px" align="center">
+             <div style="display:block; float:left; width:100%; z-index:90000; background:#fff   " align="left"   >
+             
+             <div style=" width:85%; display:block; float:left; padding-left:3%">
+             <p><b>NOS PRODUITS</b></p>
+             </div>
+             
+              <div style=" width:10%; display:block; float:right">
+             <a href="#test-panel"   data-role="button" data-mini="true" data-iconpos="notext"   data-icon="delete" data-iconpos="left">Close</a>
+             </div>
+         </div>
+ 
+        <div style="width:100%;      display:inline; float:left; margin-top:30px" align="center">
        
-       <div style="width:43%; height:43%; display:block; float:left; margin-right:7%; margin-bottom:5%">
+       <div style="width:43%; height:43%; display:block; float:left; margin-right:7%; margin-bottom:3%">
        <p><a href="vernis.html" data-role="button" data-transition="pop"><img src="images/1p.jpg" width="100%" /></a></p>
        <p style="font-size:11px"><b>Vernis</b></p>
        </div>
        
-       <div style="width:43%;   height:43%; display:block; float:left; margin-right:7%; margin-bottom:5%">
+       <div style="width:43%;   height:43%; display:block; float:left; margin-right:7%; margin-bottom:3%">
         <p><a href="gloss.html" data-role="button" data-transition="pop"><img src="images/3p.jpg" width="100%" /></a></p>
        <p style="font-size:11px"><b>Gloss</b></p>
        </div>
        
-       <div style="width:43%; height:43%; display:block; float:left; margin-right:7%; margin-bottom:5%">
+       <div style="width:43%; height:43%; display:block; float:left; margin-right:7%; margin-bottom:3%">
         <p><a href="" data-role="button"><img src="images/2p.jpg" width="100%" /></a></p>
        <p style="font-size:11px"><b>Rouge &agrave; l&egrave;vre</b></p>
        </div>
@@ -66,6 +65,7 @@
       
        
        </div>
+     
  
     </div>
     <div data-role="footer" data-position="fixed" style="background:#FFF; border:none;   " align="center">
@@ -109,7 +109,7 @@
      </div>
     <!--Contacts-->
       
-    
+   
     
  </body>
 </html>

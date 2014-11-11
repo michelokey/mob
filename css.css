@@ -20,7 +20,6 @@ body{ background:#FFF; }
 */
   @media screen and (max-width: 250px) {
   #home {
-  
   position: fixed; 
 top: 0; 
 left: 0; 
@@ -88,7 +87,7 @@ background-size: cover;
   }
   }
  
- 
+  
 /* Content styling. */
 dl { font-family: "Times New Roman", Times, serif; padding: 1em; }
 dt { font-size: 2em; font-weight: bold; }
@@ -135,7 +134,16 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
   border-bottom: 1px solid #fff ;
    
 }
-
+#loading{
+	background:#000;
+	width:100%;
+	height:100%;
+	display:block;
+ 	 overflow:hidden;
+    margin: 0;
+	padding: 0;
+	position:absolute;
+} 
 #navigation li a {
   display: block ;
     color: #000 ;
@@ -148,10 +156,7 @@ dd { font-size: 1.25em; margin: 1em 0 0; padding-bottom: 1em; border-bottom: 1px
 #navigation li a:hover {
   background: #d13d64 ;
   color:#fff;
-}
-
-
-			 
+}			 
 			#monbloc {   text-align:center; }
 
 			#monbloc { width:95%;   }
