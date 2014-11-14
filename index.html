@@ -16,7 +16,7 @@ $(document).delegate('.ui-navbar ul li > a', 'click', function() {
   $(this).addClass('ui-btn-active');
 
   //hide the siblings
-  $('#' + $(this).attr('data-href')).show().siblings('.tab-content').hide();
+  $('#' + $(this).attr('data-href')).fadeIn().siblings('.tab-content').fadeOut();
 
   return false;
 });
@@ -93,20 +93,14 @@ $(document).delegate('.ui-navbar ul li > a', 'click', function() {
       
 </div>
 <!-- Accueil -->
-    <div data-role="header" data-position="fixed" style="background:#FFF; border:none;   " align="center">
-   <div  style="width:100%; display:block; float:left;background:#fff">
-  
-   <div style="width:55%; display:block; float:left" align="left">
-  <img src="images/logo_glams.png" width="50%" />
-  </div>
-    <div style="width:20%; display:block; float:right">
-<a href="#test-panel"   data-role="button" data-mini="true" data-iconpos="notext"   data-icon="search" data-iconpos="left">search</a>
-    
-  </div>
-  </div>
+    <div data-role="header" data-position="fixed" style="background:#FFF;   box-shadow: 0 0 5px #666;   "  >
+    <a href="#" data-role="button" data-mini="true" style="  border:none; background:none;box-shadow: none  "   data-iconpos="left"><span style="font-family:'Greyhound'; font-weight:normal; font-size:12pt">GLAM&acute;S MAKEUP</span></a>
+   <h1></h1>
+ <a href="#" data-role="button" data-mini="true" data-iconpos="notext"   data-icon="search" data-iconpos="right">Close</a>
+ 
   </div>
    
-    <div data-role="footer" data-position="fixed" style="background:#FFF; border:none;   " align="center">
+    <div data-role="footer" data-position="fixed" style="background:#FFF; border:none; box-shadow: 0 0 5px #666;  " align="center">
    <div data-role="navbar">
       <ul>
       <!--li><a href="#"    data-icon="home"   data-shadow="false" data-iconshadow="false" data-role="button">Accueil</a></li-->
